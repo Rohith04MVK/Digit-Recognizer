@@ -7,6 +7,6 @@
 ### ``` conda activate digit_recognizer ```
 ### If conda is not recoganized as a command check if it is added to path
 ## Draw Feature
-#### If you have cloned this repository run the draw.py to test model.
-#### If m.model is missing it will not work
+### If you have cloned this repository run the draw.py to test model.
+### If m.model is missing it will not work
 
