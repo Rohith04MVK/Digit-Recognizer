@@ -8,7 +8,7 @@ import sys
 
 
 
-
+# creating pixles
 
 class pixel(object):
     def __init__(self, x, y, width, height):
