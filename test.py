@@ -14,6 +14,7 @@ for test in range(len(x_test)):
                 x_test[test][row][x] = 1
 
 
+
 for i in range(10):
     plt.imshow(x_test[i], cmap=plt.cm.binary)
     plt.show()
