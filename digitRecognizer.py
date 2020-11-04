@@ -16,7 +16,7 @@ for train in range(len(x_train)):
                 x_train[train][row][x] = 1
 
 
-
+# Making the model 
 model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Flatten())
 model.add(tf.keras.layers.Dense(128, activation='relu'))
