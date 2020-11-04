@@ -9,4 +9,3 @@
 ## Draw Feature
 ### If you have cloned this repository run the draw.py to test model.
 ### If m.model is missing it will not work
-
