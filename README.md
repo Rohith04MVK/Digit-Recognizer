@@ -12,6 +12,8 @@
 
 ### ``` conda activate digit_recognizer ```
 
+### ``` python draw.py ```
+
 ### If conda is not recoganized as a command check if it is added to path
 
 ## Draw Feature
