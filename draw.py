@@ -8,15 +8,13 @@ import sys
 
 
 
-# creating pixles
-
 class pixel(object):
     def __init__(self, x, y, width, height):
         self.x = x
         self.y = y
         self.width = width
         self.height = height
-        self.color = (254, 255, 255)
+        self.color = (255,255,255)
         self.neighbors = []
 
     def draw(self, surface):
@@ -102,7 +100,7 @@ class grid(object):
 
         for i in range(len(li)):
             for j in range(len(li[i])):
-                if li[i][j].color == (0,255,255):
+                if li[i][j].color == (255,255,255):
                     newMatrix[i].append(0)
                 else:
                     newMatrix[i].append(1)
