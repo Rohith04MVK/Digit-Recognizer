@@ -18,7 +18,7 @@ for train in range(len(x_train)):
 model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Flatten())
 model.add(tf.keras.layers.Dense(128, activation="relu"))
-model.add(tf.keras.layers.Dense(128, activation="relu"))
+model.add(tf.keras.layers.Dense(128, activation="relu"))# Added new layer
 model.add(tf.keras.layers.Dense(10, activation="softmax"))
 
 model.compile(optimizer='adam',

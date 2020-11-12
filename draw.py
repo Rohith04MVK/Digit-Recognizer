@@ -100,7 +100,7 @@ class grid(object):
 
         for i in range(len(li)):
             for j in range(len(li[i])):
-                if li[i][j].color == (255,255,255):
+                if li[i][j].color == (255,255,255): # fixed (0,255,255)
                     newMatrix[i].append(0)
                 else:
                     newMatrix[i].append(1)
