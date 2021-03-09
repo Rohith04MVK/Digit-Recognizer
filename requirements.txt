@@ -1,6 +1,5 @@
 tensorflow
 numpy
-pands 
+pandas 
 tkinter
 matplotlib
-
